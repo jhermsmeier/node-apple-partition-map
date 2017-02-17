@@ -1,6 +1,6 @@
 {
   "name": "apple-partition-map",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Apple Partition Map (APM)",
   "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
   "license": "MIT",
