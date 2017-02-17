@@ -1,19 +1,19 @@
 # Apple Partion Map (APM)
-[![npm](https://img.shields.io/npm/v/apple-partion-map.svg?style=flat-square)](https://npmjs.com/package/apple-partion-map)
-[![npm license](https://img.shields.io/npm/l/apple-partion-map.svg?style=flat-square)](https://npmjs.com/package/apple-partion-map)
-[![npm downloads](https://img.shields.io/npm/dm/apple-partion-map.svg?style=flat-square)](https://npmjs.com/package/apple-partion-map)
-[![build status](https://img.shields.io/travis/jhermsmeier/node-apple-partion-map.svg?style=flat-square)](https://travis-ci.org/jhermsmeier/node-apple-partion-map)
+[![npm](https://img.shields.io/npm/v/apple-partition-map.svg?style=flat-square)](https://npmjs.com/package/apple-partition-map)
+[![npm license](https://img.shields.io/npm/l/apple-partition-map.svg?style=flat-square)](https://npmjs.com/package/apple-partition-map)
+[![npm downloads](https://img.shields.io/npm/dm/apple-partition-map.svg?style=flat-square)](https://npmjs.com/package/apple-partition-map)
+[![build status](https://img.shields.io/travis/jhermsmeier/node-apple-partition-map.svg?style=flat-square)](https://travis-ci.org/jhermsmeier/node-apple-partition-map)
 
 ## Install via [npm](https://npmjs.com)
 
 ```sh
-$ npm install --save apple-partion-map
+$ npm install --save apple-partition-map
 ```
 
 ## Usage
 
 ```js
-var APM = require( 'apple-partion-map' )
+var APM = require( 'apple-partition-map' )
 ```
 
 ```js
