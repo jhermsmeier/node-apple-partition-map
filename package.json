@@ -1,0 +1,35 @@
+{
+  "name": "apple-partition-map",
+  "version": "0.0.0",
+  "description": "Apple Partition Map (APM)",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
+  "license": "MIT",
+  "keywords": [
+    "apm",
+    "apple",
+    "partition-map",
+    "parition",
+    "map",
+    "disk",
+    "boot"
+  ],
+  "main": "lib/apm.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "homepage": "https://github.com/jhermsmeier/node-apple-partition-map",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhermsmeier/node-apple-partition-map.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/node-apple-partition-map/issues"
+  },
+  "scripts": {
+    "test": "mocha --ui tdd"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
