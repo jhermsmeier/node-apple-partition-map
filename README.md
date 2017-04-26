@@ -10,6 +10,23 @@
 $ npm install --save apple-partition-map
 ```
 
+## Index
+<!-- MarkdownTOC -->
+
+- [Related Modules](#related-modules)
+- [Usage](#usage)
+- [References](#references)
+
+<!-- /MarkdownTOC -->
+
+## Related Modules
+
+- [mbr](https://github.com/jhermsmeier/node-mbr) – Parse / construct Master Boot Records
+- [gpt](https://github.com/jhermsmeier/node-gpt) – Parse / construct GUID partition tables
+- [disk](https://github.com/jhermsmeier/node-disk) – ...
+- [blockdevice](https://github.com/jhermsmeier/node-blockdevice) – Read from / write to block devices
+- [udif](https://github.com/jhermsmeier/node-udif) – Apple Universal Disk Image Format (UDIF/DMG)
+
 ## Usage
 
 ```js
@@ -178,3 +195,10 @@ APM {
   ]
 }
 ```
+
+## References
+
+- [IOApplePartitionScheme.h](https://opensource.apple.com/source/IOStorageFamily/IOStorageFamily-116/IOApplePartitionScheme.h.auto.html)
+- [IOApplePartitionScheme.cpp](https://opensource.apple.com/source/IOStorageFamily/IOStorageFamily-116/IOApplePartitionScheme.cpp.auto.html)
+- [File System Forensic Analysis: PC-based Partitions](http://www.informit.com/articles/article.aspx?p=376123&seqNum=3)
+- [Wikipedia / Apple Partition Map](https://en.wikipedia.org/wiki/Apple_Partition_Map)
