@@ -32,14 +32,14 @@ bench( `apm.parse() ⨉ ${ITERATIONS}`, function( run ) {
 
 })
 
-bench( `apm.toBuffer() ⨉ ${ITERATIONS}`, function( run ) {
+bench( `apm.write() ⨉ ${ITERATIONS}`, function( run ) {
 
   var apm = APM.parse( buffer )
   var output = null
 
   run.start()
   for( var i = 0; i < ITERATIONS; i++ ) {
-    output = apm.toBuffer()
+    output = apm.write()
   }
   run.end()
 

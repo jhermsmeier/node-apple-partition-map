@@ -33,8 +33,8 @@ describe( 'Mac OS X Snow Leopard', function() {
 
     })
 
-    specify( '.toBuffer()', function() {
-      var result = apm.toBuffer()
+    specify( '.write()', function() {
+      var result = apm.write()
       var start = 0
       var end = result.length
       assert.ok( buffer.slice( start, end ).equals( result ), 'Buffers mismatch' )
@@ -42,11 +42,11 @@ describe( 'Mac OS X Snow Leopard', function() {
 
     describe( 'Partition', function() {
 
-      specify( '.toBuffer()', function() {
+      specify( '.write()', function() {
         apm.partitions.forEach( ( partition, i ) => {
           var start = ( i + 1 ) * apm.blockSize
           var end = start + APM.Partition.size
-          assert.ok( buffer.slice( start, end ).equals( partition.toBuffer() ), 'Buffers mismatch' )
+          assert.ok( buffer.slice( start, end ).equals( partition.write() ), 'Buffers mismatch' )
         })
       })
 
